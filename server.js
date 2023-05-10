@@ -6,6 +6,8 @@ const app = express()
 //connect to database
 connectDB()
 
+app.use(express.json({extended: false }))
+
 app.get('/', (req, res) => res.send('API running'))
 
 app.use('/api/users', require("./routes/api/users"))
