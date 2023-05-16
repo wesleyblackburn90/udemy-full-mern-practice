@@ -1,3 +1,4 @@
 {
-  "mongoURI" : "mongodb+srv://wesleyblackburn90:TwEgM9d0yBNAQit8@udemymerncluster.hmrq6ci.mongodb.net/?retryWrites=true&w=majority"
+  "mongoURI" : "mongodb+srv://wesleyblackburn90:TwEgM9d0yBNAQit8@udemymerncluster.hmrq6ci.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret" : "mysecrettoken"
 }
